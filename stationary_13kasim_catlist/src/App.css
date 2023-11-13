@@ -1,0 +1,81 @@
+/* Temel Stiller */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-md-8, .col-md-4, .col-md-12 {
+  padding: 0 15px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+/* Navbar'ı sabitle */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Sepet toplamını sağ üst köşede göster */
+.total-display {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  z-index: 1010;
+}
+
+/* Ana içerik için üst boşluğu ayarla */
+.main-content {
+  margin-top: 60px;
+}
+
+/* Küçük Ekranlar için Responsive Tasarım */
+@media (max-width: 768px) {
+  .navbar {
+    font-size: 0.8em;
+  }
+
+  .col-md-8, .col-md-4, .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .dropdown-menu {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+}
+
+/* Tablet ve Orta Boy Ekranlar için Responsive Tasarım */
+@media (min-width: 769px) and (max-width: 992px) {
+ 
+}
+.navbar-brand {
+  color: #333; /* Koyu gri, siyaha yakın bir renk */
+}
