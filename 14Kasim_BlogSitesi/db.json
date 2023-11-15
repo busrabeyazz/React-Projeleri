@@ -1,0 +1,101 @@
+{
+  "blogs":[
+  {
+    "id": 1,
+    "categoryId": 4,
+    "title": "Sağlıklı Beslenme İpuçları",
+    "content": "Sağlıklı yaşam için dengeli ve doğru beslenme yöntemlerini keşfedin.",
+    "date": "2023-05-31",
+    "image":""
+  },
+  {
+    "id": 2,
+    "categoryId": 4,
+    "title": "Stres Yönetimi ve Sağlık",
+    "content": "Modern yaşamın getirdiği stresle başa çıkmanın yollarını öğrenin.",
+    "date": "2023-05-31",
+    "image":""
+  },
+  {
+    "id": 3,
+    "categoryId": 2,
+    "title": "Avrupa'nın Gizli Cennetleri",
+    "content": "Avrupa'nın keşfedilmemiş güzelliklerini ve gizli köşelerini keşfedin.",
+    "date": "2023-03-18",
+    "image":""
+  },
+  {
+    "id": 4,
+    "categoryId": 4,
+    "title": "Yoga ve Sağlık Üzerindeki Etkileri",
+    "content": "Yoganın beden ve zihin sağlığı üzerindeki olumlu etkilerini keşfedin.",
+    "date": "2023-09-15",
+    "image":""
+  },
+  {
+    "id": 5,
+    "categoryId": 1,
+    "title": "Yapay Zekanın Geleceği",
+    "content": "Teknolojinin hızla gelişen alanı yapay zeka ve geleceği üzerine bir inceleme.",
+    "date": "2023-01-13",
+    "image":""
+  },
+  {
+    "id": 6,
+    "categoryId": 4,
+    "title": "Evde Egzersiz Rutinleri",
+    "content": "Evde yapabileceğiniz basit ve etkili egzersiz yöntemleri.",
+    "date": "2023-02-01",
+    "image":""
+  },
+  {
+    "id": 7,
+    "categoryId": 4,
+    "title": "Detoks Diyetleri: Faydaları ve Zararları",
+    "content": "Popüler detoks diyetlerinin sağlık üzerindeki etkileri ve dikkat edilmesi gerekenler.",
+    "date": "2023-04-24",
+    "image":""
+  },
+  {
+    "id": 8,
+    "categoryId": 2,
+    "title": "Doğu Asya'nın Keşfedilmemiş Rotaları",
+    "content": "Doğu Asya'nın henüz keşfedilmemiş egzotik destinasyonlarını ve gizli güzelliklerini keşfedin.",
+    "date": "2023-06-10",
+    "image":""
+  },
+  {
+    "id": 9,
+    "categoryId": 1,
+    "title": "Akıllı Ev Teknolojileri ve Günlük Yaşam",
+    "content": "Akıllı ev teknolojilerinin günlük yaşamımızı nasıl kolaylaştırdığına ve getirdiği yeniliklere bir bakış.",
+    "date": "2023-07-21",
+    "image":""
+  },
+  {
+    "id": 10,
+    "categoryId": 3,
+    "title": "Kentsel Bahçecilik ve Sürdürülebilir Yaşam",
+    "content": "Kentsel alanlarda bahçecilik yaparak sürdürülebilir bir yaşam tarzı nasıl oluşturulur, ipuçları ve yöntemler.",
+    "date": "2023-08-15",
+    "image":""
+  }
+  ],
+"categories": [
+  {
+    "id": 1,
+    "categoryName": "Teknoloji"
+  },
+  {
+    "id": 2,
+    "categoryName": "Seyahat"
+  },
+  {
+    "id": 3,
+    "categoryName": "Çevre"
+  },  {
+    "id": 4,
+    "categoryName": "Sağlık"
+  }
+]
+}
