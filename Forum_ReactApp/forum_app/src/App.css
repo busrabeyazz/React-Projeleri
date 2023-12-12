@@ -1,0 +1,167 @@
+
+:root {
+  --dark-blue: #202038; /* Daha koyu arka plan rengi */
+  --text-light: #ffffff; /* Açık metin rengi */
+  --input-bg: #ffffff; /* Giriş alanları için arka plan rengi */
+  --input-text: #333; /* Giriş metin rengi */
+  --navbar-footer-bg: #162447; /* Navbar ve Footer için arka plan rengi */
+  --card-bg: #1f4068; /* Soru kartları için arka plan rengi */
+  --page-bg: #121212; /* Sayfanın genel arka plan rengi */
+}
+body, .navbar, .footer {
+  background-color: var(--dark-blue);
+  color: var(--text-light);
+}
+
+a, .nav-link, .footer a {
+  color: var(--text-light);
+  text-decoration: none;
+}
+
+a:hover, .nav-link:hover, .footer a:hover {
+  color: #ddd;
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.modal-header {
+  background-color: #2a2f45;
+  color: #ffffff;
+}
+
+.modal-content {
+  background-color: #3a3f55;
+}
+
+.modal-body {
+  background-color: #3a3f55;
+}
+
+
+.form-label {
+  color: var(--text-light);
+}
+
+.form-control {
+  color: var(--input-text); 
+  background-color: var(--input-bg); 
+  border: 1px solid #ccc; 
+}
+.form-control::placeholder {
+  color: #666; 
+}
+
+.btn-primary {
+  background-color: #2a2f45;
+  border-color: #2a2f45;
+}
+
+.btn-primary:hover {
+  background-color: #1a1a2e;
+  border-color: #1a1a2e;
+}
+
+#root, .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 0.9em;
+  background-color: #1a1a2e;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.footer-links a {
+  padding: 0 5px;
+}
+
+.footer-links span {
+  padding: 0 5px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  color: #ffffff;
+  background-color: #121212; 
+}
+
+.container-fluid {
+  padding-top: 20px;
+}
+
+.card {
+  cursor: pointer;
+ 
+}
+
+.card-body {
+  transition: transform .2s; 
+  background-color: #202038;
+}
+
+.card:hover .card-body {
+  transform: scale(1.02); 
+}
+
+
+
+body, html {
+
+  background-color: #262641;
+}
+
+.container-fluid {
+  padding-top: 20px;
+}
+
+
+.card .card-body {
+  transition: transform .2s;
+}
+
+.card:hover .card-body {
+  transform: scale(1.02); 
+}
+
+
+.fa-heart {
+  color: #e25555; 
+}
+
+.fa-comments {
+  color: #f0f0f0; 
+}
+
+.navbar {
+  margin-bottom: 1rem; 
+  box-shadow: 0 2px 4px #202038; 
+}
+
+.card {
+  background-color: #202038; 
+}
+.comment-card {
+  border: none; 
+
+}
+.category-item:hover {
+  background-color: #f8f9fa;
+  color: #000; 
+}
