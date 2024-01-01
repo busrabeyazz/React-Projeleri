@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  * input:focus{
+    outline: none;
+  }
+  
+  :root {
+    --color-39b4ac: #39b4ac;
+    --color-d8f4e2: #d8f4e2;
+  }
+  
+  a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+  }
+  li{
+   list-style: none;
+  }
