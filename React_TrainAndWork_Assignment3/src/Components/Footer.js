@@ -1,99 +1,198 @@
-import React from 'react'
-import './Footer.css'
-import { Link } from 'react-router-dom'
-const Footer = () => {
+import React, { Component } from 'react'
+
+export default class Footer extends Component {
+  render() {
     return (
-        <>
-            <footer className="main">
+      <div>
+        <footer className="main">
+  <section className="newsletter p-30 text-white wow fadeIn animated">
+    <div className="container">
+      <div className="row align-items-center">
+        <div className="col-lg-7 mb-md-3 mb-lg-0">
+          <div className="row align-items-center">
+            <div className="col flex-horizontal-center">
+              <img
+                className="icon-email"
+                src="assets/imgs/theme/icons/icon-email.svg"
+                alt=""
+              />
+              <h4 className="font-size-20 mb-0 ml-3">Sign up to Newsletter</h4>
+            </div>
+            <div className="col my-4 my-md-0 des">
+              <h5 className="font-size-15 ml-4 mb-0">
+                ...and receive <strong>$25 coupon for first shopping.</strong>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-5">
+          {/* Subscribe Form */}
+          <form className="form-subcriber d-flex wow fadeIn animated">
+            <input
+              type="email"
+              className="form-control bg-white font-small"
+              placeholder="Enter your email"
+            />
+            <button className="btn bg-dark text-white" type="submit">
+              Subscribe
+            </button>
+          </form>
+          {/* End Subscribe Form */}
+        </div>
+      </div>
+    </div>
+  </section>
+  <section className="section-padding footer-mid">
+    <div className="container pt-15 pb-20">
+      <div className="row">
+        <div className="col-lg-4 col-md-6">
+          <div className="widget-about font-md mb-md-5 mb-lg-0">
+            <div className="logo logo-width-1 wow fadeIn animated">
+              <a href="index.html">
+                <img src="assets/imgs/theme/logo.svg" alt="logo" />
+              </a>
+            </div>
+            <h5 className="mt-20 mb-10 fw-600 text-grey-4 wow fadeIn animated">
+              Contact
+            </h5>
+            <p className="wow fadeIn animated">
+              <strong>Address: </strong>562 Wellington Road, Street 32, San
+              Francisco
+            </p>
+            <p className="wow fadeIn animated">
+              <strong>Phone: </strong>+01 2222 365 /(+91) 01 2345 6789
+            </p>
+            <p className="wow fadeIn animated">
+              <strong>Hours: </strong>10:00 - 18:00, Mon - Sat
+            </p>
+            <h5 className="mb-10 mt-30 fw-600 text-grey-4 wow fadeIn animated">
+              Follow Us
+            </h5>
+            <div className="mobile-social-icon wow fadeIn animated mb-sm-5 mb-md-0">
+              <a href="#">
+                <img src="assets/imgs/theme/icons/icon-facebook.svg" alt="" />
+              </a>
+              <a href="#">
+                <img src="assets/imgs/theme/icons/icon-twitter.svg" alt="" />
+              </a>
+              <a href="#">
+                <img src="assets/imgs/theme/icons/icon-instagram.svg" alt="" />
+              </a>
+              <a href="#">
+                <img src="assets/imgs/theme/icons/icon-pinterest.svg" alt="" />
+              </a>
+              <a href="#">
+                <img src="assets/imgs/theme/icons/icon-youtube.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-2 col-md-3">
+          <h5 className="widget-title wow fadeIn animated">About</h5>
+          <ul className="footer-list wow fadeIn animated mb-sm-5 mb-md-0">
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Delivery Information</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#">Terms &amp; Conditions</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+            <li>
+              <a href="#">Support Center</a>
+            </li>
+          </ul>
+        </div>
+        <div className="col-lg-2  col-md-3">
+          <h5 className="widget-title wow fadeIn animated">My Account</h5>
+          <ul className="footer-list wow fadeIn animated">
+            <li>
+              <a href="#">Sign In</a>
+            </li>
+            <li>
+              <a href="#">View Cart</a>
+            </li>
+            <li>
+              <a href="#">My Wishlist</a>
+            </li>
+            <li>
+              <a href="#">Track My Order</a>
+            </li>
+            <li>
+              <a href="#">Help</a>
+            </li>
+            <li>
+              <a href="#">Order</a>
+            </li>
+          </ul>
+        </div>
+        <div className="col-lg-4">
+          <h5 className="widget-title wow fadeIn animated">Install App</h5>
+          <div className="row">
+            <div className="col-md-8 col-lg-12">
+              <p className="wow fadeIn animated">
+                From App Store or Google Play
+              </p>
+              <div className="download-app wow fadeIn animated">
+                <a href="#" className="hover-up mb-sm-4 mb-lg-0">
+                  <img
+                    className="active"
+                    src="assets/imgs/theme/app-store.jpg"
+                    alt=""
+                  />
+                </a>
+                <a href="#" className="hover-up">
+                  <img src="assets/imgs/theme/google-play.jpg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div className="col-md-4 col-lg-12 mt-md-3 mt-lg-0">
+              <p className="mb-20 wow fadeIn animated">
+                Secured Payment Gateways
+              </p>
+              <img
+                className="wow fadeIn animated"
+                src="assets/imgs/theme/payment-method.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div className="container pb-20 wow fadeIn animated">
+    <div className="row">
+      <div className="col-12 mb-20">
+        <div className="footer-bottom" />
+      </div>
+      <div className="col-lg-6">
+        <p className="float-md-left font-sm text-muted mb-0">
+          © 2022, <strong className="text-brand">Evara</strong> - HTML Ecommerce
+          Template{" "}
+        </p>
+      </div>
+      <div className="col-lg-6">
+        <p className="text-lg-end text-start font-sm text-muted mb-0">
+          Designed by{" "}
+          <a href="http://alithemes.com" target="_blank">
+            Alithemes.com
+          </a>
+          . All rights reserved
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
 
-                <section className="newsletter p-30 text-white wow fadeIn animated animated animated" style={{ "visibility": "visible" }} data-metatip="true" data-selected="true" data-label-id="0">
-                    <div className="container">
-                        <div className="row align-items-center" style={{ "width": "100%" }}>
-                            <div className="col-lg-7">
-                                <div className="row align-items-center">
-                                    <div className="col flex-horizontal-center">
-
-                                        <h4 className="font-size-20 mb-0 ml-3">Sign up to Newsletter</h4>
-                                    </div>
-                                    <div className="col my-4 my-md-0 des">
-                                        <h5 className="font-size-15 ml-4 mb-0">...and receive <strong>$25 coupon for first shopping.</strong></h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-5">
-                                <form className="form-subcriber d-flex wow fadeIn animated animated animated" style={{ "visibility": "visible" }}>
-                                    <input type="email" className="form-control bg-white font-small" placeholder="Enter your email" />
-                                    <button className="btn bg-dark text-white" type="submit">Subscribe</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section className='section-padding ' >
-                    <div className="container mt-5">
-
-                        <div className=" col-lg-4 col-md-6">
-
-                            <img src="https://wp.alithemes.com/html/evara/evara-frontend/assets/imgs/theme/logo.svg" alt="" width="120" height="38" />
-                            <h5 className="mt-20 mb-10 fw-600 text-grey-4 wow fadeIn animated animated animated">
-                                Contact
-                            </h5>
-                            <p className='wow fadeIn animated animated animated'><strong>Address:</strong> 470 Tran Dai Nghia, Hoa Quy, Ngu Hanh Son</p>
-                            <p className='wow fadeIn animated animated animated'><strong>Phone:</strong> +01 2345 6789</p>
-                            <p className='wow fadeIn animated animated animated'><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
-                            <h5 className='wow fadeIn animated animated animated mb-10 mt-30 text-gray-4'>Follow Us</h5>
-                            <div className='social-icon wow fadeIn animated animated animated'>
-                                <a><img src='images\facebook-icon.png'/></a>
-                                <a><img src='images\twiter-icon.png'/></a>
-                                <a><img src='images\instagram-icon.png'/></a>
-                                <a><img src='images\pinterest.png'/></a>
-                                <a><img src='images\youtube-icon.png'/></a>
-
-
-                            </div>
-                        </div>
-
-                        <div className='col-md-3 col-lg-2'>
-                            <h4 className=' mb-4'>About</h4>
-                            <div className='footer-links d-flex flex-column'>
-                                <Link to='/' className=' py-2 mb-1'>About Us</Link>
-                                <Link to='/' className=' py-2 mb-1'>Delivery Information</Link>
-                                <Link to='/' className=' py-2 mb-1'>Privacy Policy</Link>
-                                <Link to='/' className=' py-2 mb-1'>Terms & Conditions</Link>
-                                <Link to='/' className=' py-2 mb-1'>Contact Us</Link>
-                                <Link to='/' className=' py-2 mb-1'>Support Center</Link>
-                            </div>
-                        </div>
-                        <div className='col-lg-2 col-md-3'>
-                            <h4 className=' mb-4'>My Account</h4>
-                            <div className='footer-links d-flex flex-column'>
-                                <Link className=' py-2 mb-1'>Sign In</Link>
-                                <Link className=' py-2 mb-1'>View Cart</Link>
-                                <Link className=' py-2 mb-1'>My Wishlist</Link>
-                                <Link className=' py-2 mb-1'>Track My Order</Link>
-                                <Link className=' py-2 mb-1'>Help</Link>
-                                <Link className=' py-2 mb-1'>Order</Link>
-
-
-                            </div>
-                        </div>
-                        <div className='col-lg-4'>
-                            <h4 className=' mb-4'>Install App</h4>
-                            <div className='footer-links d-flex flex-column'>
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <div className="text-center p-4" style={{ "backgroundcolor": "rgba(0, 0, 0, 0.025)" }}>
-                    © 2023 Copyright:
-                    <a className="text-reset fw-bold" href="#">Vi Lê</a>
-                </div>
-            </footer>
-        </>
+      </div>
     )
+  }
 }
-
-export default Footer

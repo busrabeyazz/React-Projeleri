@@ -1,19 +1,20 @@
-import React from 'react';
 import './App.css';
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import Layout from './Components/Layout';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Slider from './components/HomeComponent/Slider';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <>
-    <BrowserRouter>
-      <Routes>
-        <Route path ='/' element={<Layout/>}>
-          
-        </Route>
-      </Routes>
-    </BrowserRouter>
-    </>
+    <div className="App">
+   <Header />
+   <Home />
+   
+
+
+   
+   <Footer />
+    </div>
   );
 }
 
