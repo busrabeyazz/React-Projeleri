@@ -1,0 +1,488 @@
+{
+    "products": [
+        {
+            "id": 24,
+            "name": "Colorful Pattern Shirts",
+            "category": "Dresses",
+            "price": 330,
+            "discounted_price": 297,
+            "description": "Description for product 24",
+            "features": {
+                "new": false,
+                "featured": false,
+                "popular": false,
+                "new_added": true
+            },
+            "rating": 80,
+            "images": [
+                "assets/imgs/shop/category-thumb-8.jpg",
+                "assets/imgs/shop/product-1-1.jpg"
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Colorful Pattern Shirts",
+            "category": "Shoes & Bags",
+            "price": 101,
+            "discounted_price": 91,
+            "description": "Description for product 1",
+            "features": {
+                "new": false,
+                "featured": true,
+                "popular": false,
+                "new_added": false
+            },
+            "rating": 20,
+            "images": [
+                "assets/imgs/shop/product-1-1.jpg",
+                "assets/imgs/shop/product-1-2.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Plain Color Pocket Shirts",
+            "category": "Blouses & Shirts",
+            "price": 102,
+            "discounted_price": 92,
+            "description": "Description for product 2",
+            "features": {
+                "new": false,
+                "featured": false,
+                "popular": true,
+                "new_added": false
+            },
+            "rating": 40,
+            "images": [
+                "assets/imgs/shop/product-2-1.jpg",
+                "assets/imgs/shop/product-2-2.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Vintage Floral Oil Shirts",
+            "category": "Dresses",
+            "price": 103,
+            "discounted_price": 93,
+            "description": "Description for product 3",
+            "features": {
+                "new": false,
+                "featured": false,
+                "popular": false,
+                "new_added": true
+            },
+            "rating": 60,
+            "images": [
+                "assets/imgs/shop/product-3-1.jpg",
+                "assets/imgs/shop/product-3-2.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Colorful Hawaiian Shirts",
+            "category": "Swimwear",
+            "price": 104,
+            "discounted_price": 94,
+            "description": "Description for product 4",
+            "features": {
+                "new": true,
+                "featured": false,
+                "popular": false,
+                "new_added": false
+            },
+            "rating": 80,
+            "images": [
+                "assets/imgs/shop/product-4-1.jpg",
+                "assets/imgs/shop/product-4-2.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Flowers Sleeve Lapel Shirt",
+            "category": "Beauty",
+            "price": 105,
+            "discounted_price": 95,
+            "description": "Description for product 5",
+            "features": {
+                "new": false,
+                "featured": true,
+                "popular": false,
+                "new_added": false
+            },
+            "rating": 0,
+            "images": [
+                "assets/imgs/shop/product-5-1.jpg",
+                "assets/imgs/shop/product-5-2.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Ethnic Floral Casual Shirts",
+            "category": "Jewelry & Watch",
+            "price": 106,
+            "discounted_price": 96,
+            "description": "Description for product 6",
+            "features": {
+                "new": false,
+                "featured": false,
+                "popular": true,
+                "new_added": false
+            },
+            "rating": 20,
+            "images": [
+                "assets/imgs/shop/product-6-1.jpg",
+                "assets/imgs/shop/product-6-2.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Stitching Hole Sandals",
+            "category": "Accessories",
+            "price": 107,
+            "discounted_price": 97,
+            "description": "Description for product 7",
+            "features": {
+                "new": false,
+                "featured": false,
+                "popular": false,
+                "new_added": true
+            },
+            "rating": 40,
+            "images": [
+                "assets/imgs/shop/product-7-1.jpg",
+                "assets/imgs/shop/product-7-2.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Mens Porcelain Shirt",
+            "category": "Shoes & Bags",
+            "price": 108,
+            "discounted_price": 98,
+            "description": "Description for product 8",
+            "features": {
+                "new": true,
+                "featured": false,
+                "popular": false,
+                "new_added": false
+            },
+            "rating": 60,
+            "images": [
+                "assets/imgs/shop/product-8-1.jpg",
+                "assets/imgs/shop/product-8-2.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Lorem ipsum dolor",
+            "category": "Blouses & Shirts",
+            "price": 109,
+            "discounted_price": 99,
+            "description": "Description for product 9",
+            "features": {
+                "new": false,
+                "featured": true,
+                "popular": false,
+                "new_added": false
+            },
+            "rating": 80,
+            "images": [
+                "assets/imgs/shop/product-9-1.jpg",
+                "assets/imgs/shop/product-9-2.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Sed tincidunt interdum",
+            "category": "Dresses",
+            "price": 110,
+            "discounted_price": 100,
+            "description": "Description for product 10",
+            "features": {
+                "new": false,
+                "featured": false,
+                "popular": true,
+                "new_added": false
+            },
+            "rating": 0,
+            "images": [
+                "assets/imgs/shop/product-10-1.jpg",
+                "assets/imgs/shop/product-10-2.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Fusce metus orci",
+            "category": "Swimwear",
+            "price": 111,
+            "discounted_price": 101,
+            "description": "Description for product 11",
+            "features": {
+                "new": false,
+                "featured": false,
+                "popular": false,
+                "new_added": true
+            },
+            "rating": 20,
+            "images": [
+                "assets/imgs/shop/product-11-1.jpg",
+                "assets/imgs/shop/product-11-2.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Integer venenatis libero",
+            "category": "Beauty",
+            "price": 112,
+            "discounted_price": 102,
+            "description": "Description for product 12",
+            "features": {
+                "new": true,
+                "featured": false,
+                "popular": false,
+                "new_added": false
+            },
+            "rating": 40,
+            "images": [
+                "assets/imgs/shop/product-12-1.jpg",
+                "assets/imgs/shop/product-12-2.jpg"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Cras tempor orci id",
+            "category": "Jewelry & Watch",
+            "price": 113,
+            "discounted_price": 103,
+            "description": "Description for product 13",
+            "features": {
+                "new": false,
+                "featured": true,
+                "popular": false,
+                "new_added": false
+            },
+            "rating": 60,
+            "images": [
+                "assets/imgs/shop/product-13-1.jpg",
+                "assets/imgs/shop/product-13-2.jpg"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Nullam dapibus pharetra",
+            "category": "Accessories",
+            "price": 114,
+            "discounted_price": 104,
+            "description": "Description for product 14",
+            "features": {
+                "new": false,
+                "featured": false,
+                "popular": true,
+                "new_added": false
+            },
+            "rating": 80,
+            "images": [
+                "assets/imgs/shop/product-14-1.jpg",
+                "assets/imgs/shop/product-14-2.jpg"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Nullam mattis enim",
+            "category": "Shoes & Bags",
+            "price": 115,
+            "discounted_price": 105,
+            "description": "Description for product 15",
+            "features": {
+                "new": false,
+                "featured": false,
+                "popular": false,
+                "new_added": true
+            },
+            "rating": 0,
+            "images": [
+                "assets/imgs/shop/product-15-1.jpg",
+                "assets/imgs/shop/product-15-2.jpg"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Vivamus sollicitudin",
+            "category": "Blouses & Shirts",
+            "price": 116,
+            "discounted_price": 106,
+            "description": "Description for product 16",
+            "features": {
+                "new": true,
+                "featured": false,
+                "popular": false,
+                "new_added": false
+            },
+            "rating": 20,
+            "images": [
+                "assets/imgs/shop/product-16-1.jpg",
+                "assets/imgs/shop/product-16-2.jpg"
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Nunc volutpat massa",
+            "category": "Dresses",
+            "price": 117,
+            "discounted_price": 107,
+            "description": "Description for product 17",
+            "features": {
+                "new": false,
+                "featured": true,
+                "popular": false,
+                "new_added": false
+            },
+            "rating": 40,
+            "images": [
+                "assets/imgs/shop/category-thumb-1.jpg",
+                "assets/imgs/shop/category-thumb-2.jpg"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Donec ut nisl rutrum",
+            "category": "Swimwear",
+            "price": 118,
+            "discounted_price": 108,
+            "description": "Description for product 18",
+            "features": {
+                "new": false,
+                "featured": false,
+                "popular": true,
+                "new_added": false
+            },
+            "rating": 60,
+            "images": [
+                "assets/imgs/shop/category-thumb-2.jpg",
+                "assets/imgs/shop/category-thumb-3.jpg"
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Nunc volutpat massa",
+            "category": "Beauty",
+            "price": 119,
+            "discounted_price": 109,
+            "description": "Description for product 19",
+            "features": {
+                "new": false,
+                "featured": false,
+                "popular": false,
+                "new_added": true
+            },
+            "rating": 80,
+            "images": [
+                "assets/imgs/shop/category-thumb-3.jpg",
+                "assets/imgs/shop/category-thumb-4.jpg"
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Mauris luctus lucius",
+            "category": "Jewelry & Watch",
+            "price": 120,
+            "discounted_price": 110,
+            "description": "Description for product 20",
+            "features": {
+                "new": true,
+                "featured": false,
+                "popular": false,
+                "new_added": false
+            },
+            "rating": 0,
+            "images": [
+                "assets/imgs/shop/category-thumb-4.jpg",
+                "assets/imgs/shop/category-thumb-5.jpg"
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Donec ut nisl rutrum",
+            "category": "Accessories",
+            "price": 121,
+            "discounted_price": 111,
+            "description": "Description for product 21",
+            "features": {
+                "new": false,
+                "featured": true,
+                "popular": false,
+                "new_added": false
+            },
+            "rating": 20,
+            "images": [
+                "assets/imgs/shop/category-thumb-5.jpg",
+                "assets/imgs/shop/category-thumb-6.jpg"
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Colorful Pattern Shirts",
+            "category": "Shoes & Bags",
+            "price": 122,
+            "discounted_price": 112,
+            "description": "Description for product 22",
+            "features": {
+                "new": false,
+                "featured": false,
+                "popular": true,
+                "new_added": false
+            },
+            "rating": 40,
+            "images": [
+                "assets/imgs/shop/category-thumb-6.jpg",
+                "assets/imgs/shop/category-thumb-7.jpg"
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Plain Color Pocket Shirts",
+            "category": "Blouses & Shirts",
+            "price": 123,
+            "discounted_price": 113,
+            "description": "Description for product 23",
+            "features": {
+                "new": false,
+                "featured": false,
+                "popular": false,
+                "new_added": true
+            },
+            "rating": 60,
+            "images": [
+                "assets/imgs/shop/category-thumb-7.jpg",
+                "assets/imgs/shop/category-thumb-8.jpg"
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Vintage Floral Oil Shirts",
+            "category": "Dresses",
+            "price": 124,
+            "discounted_price": 114,
+            "description": "Description for product 24",
+            "features": {
+                "new": true,
+                "featured": false,
+                "popular": false,
+                "new_added": false
+            },
+            "rating": 80,
+            "images": [
+                "assets/imgs/shop/category-thumb-8.jpg",
+                "assets/imgs/shop/product-1-1.jpg"
+            ]
+        }
+    ],
+    "blogs": [
+        {
+            "id": 8,
+            "title": "Blog Post 8",
+            "content": "Lorem ipsum dolor sit amet.",
+            "category": "Shoes & Bags",
+            "image": "assets/imgs/blog/blog-8.jpg"
+        }
+    ]
+}
