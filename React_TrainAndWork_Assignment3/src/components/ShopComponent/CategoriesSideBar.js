@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { setCategory } from '../../ReduxSlices/CategorySlice';
+import { setCategory } from '../../Control/CategorySlice';
 import { Link } from "react-router-dom";
 
 const CategoriesSideBar = () => {

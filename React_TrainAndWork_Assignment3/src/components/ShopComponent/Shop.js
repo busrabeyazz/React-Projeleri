@@ -1,23 +1,26 @@
 import React, { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import {
-  fetchProducts,
-  selectFilteredProducts,
-} from "../../ReduxSlices/ProductSlice";
+import { useSelector, useDispatch } from 'react-redux';
+import { addItem } from "../../Control/CartSlice";
 
 function Shop() {
   const dispatch = useDispatch();
+  const cartProducts = useSelector((state) => state.cart.items);
 
-  const products = useSelector((state) => state.products.products);
-  const productStatus = useSelector((state) => state.products.status);
-  const error = useSelector((state) => state.products.error);
-  const filteredProducts = useSelector(selectFilteredProducts);
+  const handleAddItem = (item) => {
+    dispatch(addItem(item));
+    console.log(cartProducts);
+  };
 
-  useEffect(() => {
-    if (productStatus === "idle") {
-      dispatch(fetchProducts());
-    }
-  }, [productStatus, dispatch]);
+  const products = useSelector((state) => state.products.value);
+  const selectedCategory=useSelector((state) => state.category.selectedCategory);
+  var filteredProducts=[];
+  if(selectedCategory== "All"){
+    filteredProducts=products;
+  }      
+  else{
+    filteredProducts=products.filter(p=>p.category==selectedCategory);
+  }
+
   return (
     <div>
       <div className="shop-product-fillter">
@@ -33,8 +36,8 @@ function Shop() {
         </div>
       </div>
       <div className="row product-grid-3">
-        {productStatus === "loading" && <div>Loading...</div>}
-        {productStatus === "succeeded" &&
+     
+        {filteredProducts &&
           filteredProducts.map((product) => (
             <div className="col-lg-4 col-md-4 col-12 col-sm-6" key={product.id}>
               <div className="product-cart-wrap mb-30">
@@ -101,7 +104,8 @@ function Shop() {
                     <a
                       aria-label="Add To Cart"
                       className="action-btn hover-up"
-                      href="shop-cart.html"
+                      href="#"
+                      onClick={()=>handleAddItem(product)}
                     >
                       <i className="fi-rs-shopping-bag-add" />
                     </a>

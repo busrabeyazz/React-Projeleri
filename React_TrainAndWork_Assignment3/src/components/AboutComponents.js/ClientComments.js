@@ -100,7 +100,6 @@ export default class ClientComments extends Component {
   <div className="row mt-30">
     <div className="col-12 text-center">
       <p className="wow fadeIn animated">
-        <a className="btn btn-brand text-white btn-shadow-brand hover-up btn-lg mb-10">View More</a>
       </p>
     </div>
   </div>

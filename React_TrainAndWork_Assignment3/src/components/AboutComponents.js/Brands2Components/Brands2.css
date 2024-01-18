@@ -1,0 +1,37 @@
+/* Brands2 component'inize özgü stil dosyasında */
+.brand-slide {
+    text-align: center; /* İçeriği ortala */
+  }
+  
+  .brand-slide img {
+    max-width: 100%; /* Resmi konteynerin genişliğine sığdır */
+    height: auto; /* Resmin orijinal oranını koru */
+
+  }
+  
+  /* Slider oklarını özelleştirme */
+  .slick-prev,
+  .slick-next {
+    color: #000; /* Okların rengini değiştir */
+
+  }
+  
+  /* Slick dots'ı özelleştirme */
+  .slick-dots li button:before {
+    color: #000; /* Noktaların rengini değiştir */
+  }
+  
+  /* Responsive ayarlar */
+  @media (max-width: 768px) {
+    .brand-slide img {
+      width: 150px; /* Mobil için resim genişliğini küçült */
+    }
+  }
+  .brand-slide img {
+    transition: transform 0.3s ease;
+  }
+  
+  .brand-slide img:hover {
+    transform: scale(1.1); /* Resmi büyüt */
+  }
+  
